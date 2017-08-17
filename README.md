@@ -1,4 +1,6 @@
-# Redis-rb-cluster
+# Redis-rb-cluster-docker
+
+**Note**: This is a *fork* from `antirez/redis-rb-cluster`. This fork packages up the redis client into a docker container, so that it can be used to test in a Kubernetes cluster.
 
 Redis Cluster client work in progress.
 It wraps Redis-rb, and eventually should be part of it.
